@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    margin-top: 30px;
+    background-color: rgb(116, 5, 116);
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.signup{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid white;
+    width: 140px;
+    font-size: 10px;
+    color: whitesmoke;
+    background-color: rgb(116, 5, 116);
+}
+
+.para{
+    margin-top: 150px;
+    height: 300px 0px;
+    width: 300px;
+    padding: 0px 250px;
+    font-size: 46px;
+}
+
+.para1{
+    margin-top: 20px;
+    height: 100px;
+    width: 300px;
+    padding: 0px 250px;
+    line-height: 25px;
+    font-size: 16px;
+}
